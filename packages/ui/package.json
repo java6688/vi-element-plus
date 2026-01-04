@@ -1,0 +1,31 @@
+{
+  "name": "@vi-element-plus/ui",
+  "version": "1.0.0",
+  "description": "基于ElementPlus封装的Vue3组件库——vi-element-plus",
+  "main": "./index.ts",
+  "types": "./index.ts",
+  "files": [
+    "index.ts",
+    "form",
+    "table"
+  ],
+  "keywords": [
+    "vue3",
+    "element-plus",
+    "vi-element-plus",
+    "组件"
+  ],
+  "author": "微澜",
+  "license": "MIT",
+  "peerDependencies": {
+    "element-plus": "*"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/vi-element-plus"
+  },
+  "scripts": {
+    "build": "echo 'Publishing source files directly'",
+    "clean": "echo 'No build artifacts to clean'"
+  }
+}

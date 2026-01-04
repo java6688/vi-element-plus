@@ -1,0 +1,38 @@
+{
+  "name": "vi-element-plus",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc -b && vite build",
+    "preview": "vite preview",
+    "build:ui": "pnpm -C packages/ui build",
+    "build:form": "pnpm -C packages/ui/form build",
+    "build:table": "pnpm -C packages/ui/table build",
+    "build:all": "pnpm -r build",
+    "publish:ui": "pnpm -C packages/ui publish",
+    "publish:form": "pnpm -C packages/ui/form publish",
+    "publish:table": "pnpm -C packages/ui/table publish",
+    "publish:all": "pnpm -r publish",
+    "version:bump": "changeset version",
+    "release": "changeset publish",
+    "clean": "pnpm -r clean"
+  },
+  "dependencies": {
+    "element-plus": "2.11.5",
+    "vi-element-plus": "workspace:*",
+    "vue": "^3.5.24",
+    "vue-i18n": "11.1.12"
+  },
+  "devDependencies": {
+    "@types/node": "^24.10.1",
+    "@vitejs/plugin-vue": "^6.0.1",
+    "@vue/tsconfig": "^0.8.1",
+    "typescript": "~5.9.3",
+    "vite": "^7.2.4",
+    "vite-plugin-yaml": "^1.0.5",
+    "vue-tsc": "^3.1.4",
+    "rimraf": "^6.0.1"
+  }
+}

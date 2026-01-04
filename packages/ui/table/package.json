@@ -1,0 +1,30 @@
+{
+  "name": "@vi-element-plus/table",
+  "version": "1.0.0",
+  "description": "基于Element Plus封装的Vue 3表格组件",
+  "main": "index.ts",
+  "types": "index.ts",
+  "files": [
+    "index.ts",
+    "src"
+  ],
+  "keywords": [
+    "vue3",
+    "element-plus",
+    "table",
+    "组件"
+  ],
+  "author": "微澜",
+  "license": "MIT",
+  "peerDependencies": {
+    "element-plus": "*"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/vi-element-plus/table"
+  },
+  "scripts": {
+    "build": "echo 'Publishing source files directly'",
+    "clean": "echo 'No build artifacts to clean'"
+  }
+}
