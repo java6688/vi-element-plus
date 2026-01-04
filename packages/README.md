@@ -513,7 +513,7 @@ app.use(ElementPlus, {
 
 ```bash
 # 克隆项目
-git clone https://github.com/your-username/vi-element-plus.git
+git clone https://github.com/java6688/vi-element-plus.git
 
 # 安装依赖
 pnpm install
@@ -543,8 +543,8 @@ MIT License
 ## 📞 联系我们
 
 - 作者：微澜
-- 项目地址：[https://github.com/your-username/vi-element-plus](https://github.com/your-username/vi-element-plus)
-- 问题反馈：[https://github.com/your-username/vi-element-plus/issues](https://github.com/your-username/vi-element-plus/issues)
+- 项目地址：[https://github.com/java6688/vi-element-plus](https://github.com/java6688/vi-element-plus)
+- 问题反馈：[https://github.com/java6688/vi-element-plus/issues](https://github.com/java6688/vi-element-plus/issues)
 
 ---
 
